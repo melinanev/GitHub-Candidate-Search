@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# filepath: /Users/melinanevarez/bootcamp/13-candidate-search/.gitignore
+environment/.env
+

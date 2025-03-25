@@ -27,9 +27,10 @@ To install necessary dependencies, run the following command:
 To use the GitHub Candidate Search, you will perform the following steps:
 
 1. Run ```npm install``` to install the necessary dependencies.
-2. Run ```npm run dev``` to start the application.
-3. Go to ```http://localhost:3000``` (or the appropriate port) to view the application.
-4. You will see the GitHub Candidate Search interface.
+2. Create an environment file: Copy ```environment/.env.example``` to ```environment/.env``` and add your GitHub token.
+3. Run ```npm run dev``` to start the application.
+4. Go to ```http://localhost:3000``` (or the appropriate port) to view the application.
+5. You will see the GitHub Candidate Search interface.
 
 # License
 
