@@ -7,6 +7,14 @@ export default defineConfig({
   plugins: [react()],
   server: {
     host: '0.0.0.0',
-    port: 10000
+    port: 10000,
+    strictPort: true,
+    // Add Render.com domain to allowed hosts
+    allowedHosts: ['github-candidate-search-yu0k.onrender.com']
   },
+  preview: {
+    host: '0.0.0.0',
+    port: 10000,
+    strictPort: true
+  }
 });
